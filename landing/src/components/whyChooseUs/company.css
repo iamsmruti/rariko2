@@ -1,0 +1,35 @@
+.third-section{
+    padding:100px;
+}
+
+.third-section h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.third-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-wrapper img{
+    height: 800px;
+}
+
+.section-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color:#fff;
+    width: 500px;
+    padding: 0 0 0 100px;
+}
+
+.section-content h2{
+    font-size: 40px;
+}
+.section-content img{
+    height: 150px;
+}

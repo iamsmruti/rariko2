@@ -1,0 +1,17 @@
+.partner{
+    height: 40px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    background: rgba( 246, 246, 246, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.partner img{
+    height:20px;
+}
