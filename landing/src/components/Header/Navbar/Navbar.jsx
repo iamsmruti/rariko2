@@ -87,7 +87,7 @@ function DrawerAppBar(props) {
               <Button key="faq" sx={{ color: '#fff' }}>
                 <a href="#faq">FAQs</a>
               </Button>
-              <Button key="register" sx={{ color: '#fff' }}>
+              <Button variant="contained" key="register" sx={{ color: '#fff' }}>
                 <a href="#register">Register Now</a>
               </Button>
           </Box>

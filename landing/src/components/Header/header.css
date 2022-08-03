@@ -50,11 +50,17 @@ width: 644px;
     height: 400px;
 }
 
-.css-vyg67j-MuiButtonBase-root-MuiButton-root{
-  background-color:#562bff;
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  background-color:#562bff !important;
   margin-top: 20px !important;
   border-radius: 20%;
 }
+
+.css-1ps4owl-MuiTypography-root-MuiLink-root{
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 @media screen and (max-width:500px) {
   .header-section{
     display: block;
