@@ -10,9 +10,9 @@
 }
 
 .card{
-    width:400px;
+    width:30%;
     margin:25px;
-    padding: 15px;
+    padding: 30px;
     color: #fff;
     text-align:left;
     background: rgba( 255, 255, 255, 0.15 );
@@ -33,7 +33,11 @@
     height: 100px;
 }
 
-.card p{
+.card ul{
+    padding:10px;
+}
+
+.card li{
    font-weight: 300;
 }
 

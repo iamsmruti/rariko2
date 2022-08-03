@@ -20,6 +20,7 @@
 }
 
 .footer-section p{
+    font-size: 20px;
     color: #fff;
 }
  
@@ -36,6 +37,7 @@
 }
 .bottom-footer p{
     font-size: 10px;
+    color: #fff;
 }
 
 .icons{

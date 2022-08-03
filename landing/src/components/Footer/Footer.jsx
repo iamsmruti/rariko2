@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             <p>for partnerships <br/><span>info@rariko.io</span></p>
         </div>
-        <div className="bottom-footer"><p>Copyright @ Rariko 2022. All rights reserved</p></div>
+        <div className="bottom-footer"><p>Copyright &#169; Rariko 2022. All rights reserved</p></div>
     </div>
   )
 }
