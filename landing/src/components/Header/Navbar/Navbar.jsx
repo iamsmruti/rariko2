@@ -13,11 +13,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import img1 from "../../../assets/images/header-img/Rariko transparent logo.png";
 
 import "./navbar.css";
 
 const drawerWidth = 240;
-const navItems = ['About Us', 'Why us?', 'Our Product', 'Investors', 'FAQs'];
+const navItems = ['About Us', 'Why us?', 'Our Product', 'FAQs'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -30,7 +31,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        RariKo
       </Typography>
       <Divider />
       <List>
@@ -49,8 +50,8 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav" className="navbar">
+    <Box sx={{ display: 'flex' }}  >
+      <AppBar component="nav" className="navbar" >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -61,23 +62,39 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
+          <div
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
-            MUI
-          </Typography>
+          > 
+          <div className="logo">
+            <img src={img1} alt="img1" />
+            <h1>Rari<span>Ko</span></h1>
+          </div>
+          </div>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
+              <Button key="about" sx={{ color: '#fff' }}>
+                <a href="#about">About</a>
               </Button>
-            ))}
+              <Button key="whyUs" sx={{ color: '#fff' }}>
+                <a href= "#whyUs">Why us?</a>
+              </Button>
+              <Button key="product" sx={{ color: '#fff' }}>
+                <a href= "#product">Our Product</a>
+              </Button>
+              {/* <Button key="investors" sx={{ color: '#fff' }}>
+                <a href="#investors">Investors</a>
+              </Button> */}
+              <Button key="faq" sx={{ color: '#fff' }}>
+                <a href="#faq">FAQs</a>
+              </Button>
+              <Button key="register" sx={{ color: '#fff' }}>
+                <a href="#register">Register Now</a>
+              </Button>
           </Box>
         </Toolbar>
       </AppBar>
-      <Box component="nav">
+      <Box component="nav" classname="navbar">
+        
         <Drawer
           container={container}
           variant="temporary"

@@ -1,0 +1,51 @@
+.forth-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-section h1{
+    color: #fff;
+}
+
+.card{
+    width:400px;
+    margin:25px;
+    padding: 15px;
+    color: #fff;
+    text-align:left;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    transition: transform 0.5s;
+
+}
+
+.card:hover{
+    background: rgba( 255, 255, 255, 0.25 );
+    transform: translateY(-5%);
+}
+
+.card img{
+    height: 100px;
+}
+
+.card p{
+   font-weight: 300;
+}
+
+@media screen and (max-width:500px){
+    .card{
+        margin:5px;
+        width: 75%; 
+    }
+    .work-section{
+        margin-top : 100px;
+    }
+    .work-section h1{
+        font-size: 30px;
+    }
+}

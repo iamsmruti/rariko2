@@ -1,3 +1,55 @@
 .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
-    background-color: rgb(0,0,0,0.1) !important;
+    background-color: #120a33 !important;
+    transition-timing-function:ease-in;
+    transition: all 0.5s;
 }
+
+.css-hyum1k-MuiToolbar-root{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+    font-size: Roboto, "sans-serif";
+    color: #fff;
+    margin: 0px;
+    font-size: 30px;
+}
+.navbar h1 span{
+    color: #4A26E2;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: #120a33 !important; 
+    color: #fff !important;
+}
+
+@media screen and (max-width:500px) {
+    .navbar{
+        width: 80%;
+    }
+
+    .navbar h1{
+        display: none;
+    }
+}
+
+

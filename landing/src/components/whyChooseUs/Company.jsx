@@ -6,7 +6,7 @@ import "./company.css"
 
 export default function Company() {
   return (
-    <div className='third-section'>
+    <div id="whyUs" className='third-section'>
         <h1>Why choose us?</h1>
         <div className='third-wrapper'>
             <img src={img3} alt="img3" />
@@ -14,18 +14,19 @@ export default function Company() {
                 <div>
                     <img src={image2} alt="image2" />
                     <h2>Digital Identities</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Deleniti omnis culpa necessitatibus illum reiciendis neque 
-                        eaque temporibus maiores quos animi sunt vitae, totam rerum 
-                        asperiores repellat, ut nisi sapiente itaque?</p>
+                    <ul>
+                        <li>Chain agnostic</li>
+                        <li>Zero-knowledge</li>
+                        <li>Non-transferable</li>
+                    </ul>
                 </div>
                 <div>
                     <img src={image3} alt="image3" />
                     <h2>Multi-chain support</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Deleniti omnis culpa necessitatibus illum reiciendis neque 
-                        eaque temporibus maiores quos animi sunt vitae, totam rerum 
-                        asperiores repellat, ut nisi sapiente itaque?</p>
+                    <ul>
+                        <li>All-EVM chains</li>
+                        <li>Solana</li>
+                    </ul>
                 </div>
             </div>
         </div>

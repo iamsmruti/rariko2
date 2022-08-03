@@ -42,12 +42,38 @@
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.74;
-    letter-spacing: -1.98px;
+    /* line-height: 1.74;
+    letter-spacing: -1.98px; */
     text-align: left;
     color: #562bff;
 }
 
 .about img{
     width: 450px;
+}
+
+@media screen and (max-width: 500px) {
+    .about{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .about-content{
+        padding: 20px;
+    }
+    .about img{
+        width: 100%;
+        position: relative; 
+        margin-left: -40px;
+    }
+
+    .about h1{
+        font-size: 40px;
+        width: 100%;
+        margin-right:0px;
+    }
 }
