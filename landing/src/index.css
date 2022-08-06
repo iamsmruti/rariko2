@@ -8,4 +8,8 @@ body{
     padding:0px;
     margin:0px;
     overflow-x:hidden;
+    background-image: url('./assets/gradients/gradient1.png'), url('./assets/gradients/gradient2.png'), url('./assets/gradients/gradient3.png'), url('./assets/gradients/gradient2.png');
+    background-repeat: no-repeat;
+    background-size: 300vh 170vh, 100vh 100vh, 120vh 190vh, 100vh 100vh;
+    background-position: 200px 100px, -300px 1200px, 850px 2500px, 850px 4000px;
 }

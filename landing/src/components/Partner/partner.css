@@ -13,9 +13,6 @@
     /* -webkit-animation: urmove 8s linear infinite; 
     white-space: nowrap;
     animation: urmove 8s linear infinite alternate; */
-    background-image: url('../../assets/gradients/gradient1.png');
-  background-repeat: no-repeat;
-  background-size: 280vh 150vh;
 }
 
 .partner-section{

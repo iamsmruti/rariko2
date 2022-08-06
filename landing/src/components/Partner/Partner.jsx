@@ -11,7 +11,7 @@ import { Typography } from '@mui/material';
 
 export default function Partner() {
   return (
-    <div className="partner-section">
+    <Box className="partner-section">
       <Typography sx={{textTransform: 'uppercase', fontSize: '12px', mb: 3}}>Partnered With</Typography>
       <Box className="partner">
           <img src={covalent} alt="covalent" />
@@ -21,6 +21,6 @@ export default function Partner() {
           <img src={moralis} alt="moralis" />
           <img src={wallet_connect} alt="wallet_connect" />
       </Box>
-    </div>
+    </Box>
   )
 }
