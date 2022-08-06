@@ -9,7 +9,7 @@ import { Typography } from '@mui/material'
 export default function Work() {
   return (
     <div id="product" className="work-section">
-        <Typography variant='h4' sx={{color: 'white', mb: 10, mt: 3}}>Product Features</Typography>
+        <Typography variant='h4' sx={{color: 'white', textDecoration:'underline', fontWeight:'600', mb: 10, mt: 3}}>Product Features</Typography>
         <div className='forth-wrapper'>
             <div className='card'>
                 <img src={img2} alt="img2"/>

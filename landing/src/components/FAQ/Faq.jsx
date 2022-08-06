@@ -6,7 +6,7 @@ import "./faq.css"
 export default function Faq() {
   return (
     <div id="faq" className="container">
-        <h1>Frequently Asked Questions</h1>
+        <h1>FAQs</h1>
         <div className='accordion'>
             <div className="accordion-item" id="question1">
                 <a className="accordion-link" href="#question1">

@@ -8,7 +8,7 @@ import { Typography, Box } from '@mui/material'
 export default function Company() {
   return (
     <div id="whyUs" className='third-section'>
-        <Typography variant='h4' sx={{color: 'white', mb: 10, mt: 3}}>Why choose us?</Typography>
+        <Typography variant='h4' sx={{color: 'white', textDecoration: 'underline', fontWeight: '600', mb: 10, mt: 3}}>Why choose us</Typography>
         <div className='third-wrapper'>
             <img style={{transform: 'scale(0.9)'}} src={img3} alt="img3" />
             <div className='section-content'>
