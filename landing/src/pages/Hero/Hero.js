@@ -20,7 +20,7 @@ const Hero = () => {
                             <span className="para-first">Time To<br /></span>
                             <span className="para-first">Colonize The <br /></span>
                             <span className="para-second">World Of Web 3.0</span><br />
-                            <p className="para-third">Join us on this mission of making Web 3.0 a <br /> reality or some text along these lines would here</p>
+                            <p className="para-third">Let's build world changing communities. </p>
                             <Button href='https://docs.google.com/forms/d/e/1FAIpQLSccq1DdUgAE2vY3nB7d3HXcI0v1xi53aRsGlFUaYj8LtotgtQ/viewform' variant="contained" sx={{bgcolor: '#562bff', textTransform: 'capitalize'}}>Get OnBoarded</Button>
                         </div>
                     </Grid>
