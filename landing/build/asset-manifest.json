@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c8db8a.css",
+    "main.js": "/static/js/main.29870b20.js",
+    "static/media/Profile follow(mobile).png": "/static/media/Profile follow(mobile).62996aa2dcaa93e6519b.png",
+    "static/media/gradient1.png": "/static/media/gradient1.5d9b115571af148a9954.png",
+    "static/media/gradient3.png": "/static/media/gradient3.5d9b115571af148a9954.png",
+    "static/media/gradient2.png": "/static/media/gradient2.bba0878679e61d1bfad6.png",
+    "static/media/gradient4.png": "/static/media/gradient4.bb5992f5c26bfedda26f.png",
+    "static/media/Hero IMage.png": "/static/media/Hero IMage.7ef60113886c774b24f3.png",
+    "static/media/Image 6.png": "/static/media/Image 6.871c08af77686808e32e.png",
+    "static/media/image5.png": "/static/media/image5.1a8f4bbce28730303adb.png",
+    "static/media/image3.png": "/static/media/image3.5b498112ba0c421c1476.png",
+    "static/media/image4.png": "/static/media/image4.5a22e2e271c1cec25a63.png",
+    "static/media/image6.png": "/static/media/image6.af4fa96a7a88d2d0b7f3.png",
+    "static/media/image2.png": "/static/media/image2.ffb96b45209a7a447140.png",
+    "static/media/image1.png": "/static/media/image1.0932d4544ae27ef5ceaa.png",
+    "static/media/Rariko transparent logo.png": "/static/media/Rariko transparent logo.6bdb98e2059a683c76b2.png",
+    "index.html": "/index.html",
+    "main.e6c8db8a.css.map": "/static/css/main.e6c8db8a.css.map",
+    "main.29870b20.js.map": "/static/js/main.29870b20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c8db8a.css",
+    "static/js/main.29870b20.js"
+  ]
+}
