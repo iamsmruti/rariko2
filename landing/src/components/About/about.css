@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
 }
 
 .about-content{
@@ -69,9 +68,10 @@
         padding: 20px;
     }
     .about img{
-        width: 100%;
+        margin-top: 40px;
+        width: 90%;
         position: relative; 
-        margin-left: -40px;
+        margin-left: -60px;
     }
 
     .about h1{
