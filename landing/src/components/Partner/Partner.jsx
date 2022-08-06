@@ -12,7 +12,7 @@ import { Typography } from '@mui/material';
 export default function Partner() {
   return (
     <Box className="partner-section">
-      <Typography sx={{textTransform: 'uppercase', fontSize: '12px', mb: 3}}>Partnered With</Typography>
+      <Typography sx={{textTransform: 'uppercase', fontSize: '12px', mb: 3}}>Built With</Typography>
       <Box className="partner">
           <img src={covalent} alt="covalent" />
           <img src={metamask} alt="metamask" />

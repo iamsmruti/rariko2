@@ -8,8 +8,22 @@ body{
     padding:0px;
     margin:0px;
     overflow-x:hidden;
-    background-image: url('./assets/gradients/gradient1.png'), url('./assets/gradients/gradient2.png'), url('./assets/gradients/gradient3.png'), url('./assets/gradients/gradient2.png');
-    background-repeat: no-repeat;
-    background-size: 300vh 170vh, 100vh 100vh, 120vh 190vh, 100vh 100vh;
-    background-position: 200px 100px, -300px 1200px, 850px 2500px, 850px 4000px;
+}
+
+@media (max-width: 425px) {
+    body{
+        background-image: url('./assets/gradients/gradient2.png'), url('./assets/gradients/gradient1.png'), url('./assets/gradients/gradient4.png'), url('./assets/gradients/gradient1.png'), url('./assets/gradients/gradient1.png');
+        background-repeat: no-repeat;
+        background-size: 100vw 130vh, 180vw 80vh, 150vw 150vh, 120vw 80vh, 120vw 80vh;
+        background-position: 170px 380px, -200px 1700px, 70px 2900px, -200px 4500px, -150px 5200px;
+    }
+}
+
+@media ( min-width: 426px) and (max-width: 1440px ) {
+    body{
+        background-image: url('./assets/gradients/gradient1.png'), url('./assets/gradients/gradient2.png'), url('./assets/gradients/gradient3.png'), url('./assets/gradients/gradient2.png');
+        background-repeat: no-repeat;
+        background-size: 300vh 170vh, 100vh 100vh, 120vh 190vh, 100vh 100vh;
+        background-position: 200px 100px, -300px 1200px, 850px 2500px, 850px 4000px;
+    }
 }

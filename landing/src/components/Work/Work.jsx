@@ -9,7 +9,7 @@ import { Typography } from '@mui/material'
 export default function Work() {
   return (
     <div id="product" className="work-section">
-        <Typography variant='h4' sx={{color: 'white', mb: 10, mt: 3}}>What can you do on RariKo?</Typography>
+        <Typography variant='h4' sx={{color: 'white', mb: 10, mt: 3}}>Product Features</Typography>
         <div className='forth-wrapper'>
             <div className='card'>
                 <img src={img2} alt="img2"/>
@@ -18,7 +18,6 @@ export default function Work() {
                     <li>Instant token-gated access.</li>
                     <li>Real-time asset authentication (RTAA)</li>
                     <li>Anti- Phishing checks.</li>
-                    <li>Token-based checks.</li>
                     <li>Discover more communities.</li>
                 </ul>
             </div>
@@ -37,6 +36,7 @@ export default function Work() {
                 <h2>P2P trades</h2>
                 <ul>
                     <li>Transfer/trade NFTs in chats.</li>
+                    <li>Find Buyers.</li>
                     <li>Simple and trustless.</li>
                 </ul>
             </div>
