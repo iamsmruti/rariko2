@@ -4,11 +4,12 @@ import img1 from "../../assets/images/all-img/image1.png"
 import img2 from "../../assets/images/all-img/image4.png"
 import img3 from "../../assets/images/all-img/image5.png"
 import img4 from "../../assets/images/all-img/image6.png"
+import { Typography } from '@mui/material'
 
 export default function Work() {
   return (
     <div id="product" className="work-section">
-        <h1>What can you do on RariKo?</h1>
+        <Typography variant='h4' sx={{color: 'white', mb: 10, mt: 3}}>What can you do on RariKo?</Typography>
         <div className='forth-wrapper'>
             <div className='card'>
                 <img src={img2} alt="img2"/>

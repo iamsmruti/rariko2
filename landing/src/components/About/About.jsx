@@ -11,7 +11,7 @@ export default function About() {
         <h3>RariKo is a decentralized social messaging platform that allows users to create an identity, socialize with fellow blockchain sapiens and access all their favorite communities in few clicks.
         We are introducing safer and simpler community management tools. Finally a platform built for real users not for bots and scammers.</h3>
         </div>
-        <img src={img2} alt="img2" />
+        <img style={{transform: 'scale(1.2)', marginBottom: '100px'}} src={img2} alt="img2" />
       </div>
     </div>
   )

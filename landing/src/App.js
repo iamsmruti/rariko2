@@ -1,11 +1,11 @@
 import './App.css';
-import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Partner from "./components/Partner/Partner";
 import Company from './components/whyChooseUs/Company';
 import Work from "./components/Work/Work";
 import Faq from './components/FAQ/Faq';
 import Footer from "./components/Footer/Footer"
+import Hero from './pages/Hero/Hero';
 
 function App() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header/>
+      <Hero />
       <Partner/>
       <About />
       <Company/>

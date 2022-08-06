@@ -13,6 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Container } from '@mui/system';
 import img1 from "../../../assets/images/header-img/Rariko transparent logo.png";
 
 import "./navbar.css";
@@ -50,8 +51,9 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
+    <Container sx={{pt: {md: 5, xs: 2}}}>
     <Box sx={{ display: 'flex' }}  >
-      <AppBar component="nav" className="navbar" >
+      <AppBar elevation={0} sx={{bgcolor: 'transparent', position: 'relative'}} component="nav" className="navbar" >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -72,22 +74,22 @@ function DrawerAppBar(props) {
           </div>
           </div>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-              <Button key="about" sx={{ color: '#fff' }}>
+              <Button key="about" sx={{ color: '#fff', textTransform: 'capitalize' }}>
                 <a href="#about">About</a>
               </Button>
-              <Button key="whyUs" sx={{ color: '#fff' }}>
+              <Button key="whyUs" sx={{ color: '#fff', textTransform: 'capitalize' }}>
                 <a href= "#whyUs">Why us?</a>
               </Button>
-              <Button key="product" sx={{ color: '#fff' }}>
+              <Button key="product" sx={{ color: '#fff', textTransform: 'capitalize' }}>
                 <a href= "#product">Our Product</a>
               </Button>
               {/* <Button key="investors" sx={{ color: '#fff' }}>
                 <a href="#investors">Investors</a>
               </Button> */}
-              <Button key="faq" sx={{ color: '#fff' }}>
+              <Button key="faq" sx={{ color: '#fff', textTransform: 'capitalize' }}>
                 <a href="#faq">FAQs</a>
               </Button>
-              <Button variant="contained" key="register" sx={{ color: '#fff' }}>
+              <Button variant="contained" key="register" sx={{ color: '#fff' , textTransform: 'capitalize', bgcolor: '#562bff'}}>
                 <a href="#register">Register Now</a>
               </Button>
           </Box>
@@ -113,6 +115,7 @@ function DrawerAppBar(props) {
       </Box>
       
     </Box>
+    </Container>
   );
 }
 

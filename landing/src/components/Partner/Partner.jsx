@@ -4,15 +4,15 @@ import "./partner.css"
 import covalent from "../../assets/images/partners/Image 28.png"
 import metamask from "../../assets/images/partners/Mask Group 13.png"
 import buildgang from "../../assets/images/partners/Buidl Gang.png"
-// import router from "../../assets/images/partners/Image 30.png"
 import phantom from "../../assets/images/partners/Image 31.png"
 import moralis from "../../assets/images/partners/Image 27.png"
 import wallet_connect from "../../assets/images/partners/Wallet connect logo.png"
+import { Typography } from '@mui/material';
 
 export default function Partner() {
   return (
     <div className="partner-section">
-      <p>Built with</p>
+      <Typography sx={{textTransform: 'uppercase', fontSize: '12px', mb: 3}}>Partnered With</Typography>
       <Box className="partner">
           <img src={covalent} alt="covalent" />
           <img src={metamask} alt="metamask" />
